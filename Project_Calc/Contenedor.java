@@ -2,7 +2,7 @@
 /**
  * Clase contenedora para realizar pruebas de los métodos
  *
- * @author Sebastián
+ * @author Sebastián Baltodano
  * @author Sebastián España
  * @author Carlos Durán
  * @version 26-04-2022
