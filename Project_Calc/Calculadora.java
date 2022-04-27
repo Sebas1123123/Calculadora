@@ -2,7 +2,7 @@
 /**
  * Clase que realiza los cálculos para convertir entre diferentes medidas, por ejemplo
  * metro a pie (y viceversa), centímetro a pulgada, celsio a fahrenheit, kilómetro a milla.
- *
+ * Cada método verifica que el valor ingresado sea positivo, a excepcion del cálculo de la temperatura
  * @author Sebastián
  * @author Sebastián España
  * @author Carlos Durán
@@ -11,19 +11,31 @@
 public class Calculadora
 {
     public double metroAPie(double dato) {
-        return dato * 3.28084;
+        if (dato < 0.0)
+            return 0.0;
+        else
+            return dato * 3.28084;
     }
     
     public double pieAMetro(double dato) {
-        return dato * (0.3048);
+        if (dato < 0.0)
+            return 0;
+        else
+            return dato * (0.3048);
     }
     
     public double cmAPulgada(double dato) {
-        return dato * 0.393701;
+        if (dato < 0.0)
+            return 0;
+        else
+            return dato * 0.393701;
     }
     
     public double pulgadaACm(double dato){
-        return dato * 2.54;
+        if (dato < 0.0)
+            return 0;
+        else
+            return dato * 2.54;
     }
     
     public double celAFar(double dato) {
@@ -35,10 +47,16 @@ public class Calculadora
     }
     
     public double kmAMilla(double dato) {
-        return dato * 0.621371;
+        if (dato < 0.0)
+            return 0;
+        else
+            return dato * 0.621371;
     }
     
     public double millaAKm(double dato) {
-        return dato * 1.60934;
+        if (dato < 0.0)
+            return 0;
+        else
+            return dato * 1.60934;
     }
 }
