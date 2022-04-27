@@ -3,7 +3,7 @@
  * Clase que realiza los cálculos para convertir entre diferentes medidas, por ejemplo
  * metro a pie (y viceversa), centímetro a pulgada, celsio a fahrenheit, kilómetro a milla.
  * Cada método verifica que el valor ingresado sea positivo, a excepcion del cálculo de la temperatura
- * @author Sebastián
+ * @author Sebastián Baltodano
  * @author Sebastián España
  * @author Carlos Durán
  * @version 26-04-2022
