@@ -77,16 +77,12 @@ class RadioButtonCalc extends JFrame
         this.add(etiqueta);
         this.add(boton);
 
-        boton.addActionListener(new ActionListener() 
+        boton.addActionListener(new ActionListener() //Metodo para devolver un valor segun el boton seleccionado
             {
-                // Anonymous class.
                 public void actionPerformed(ActionEvent e)
                 {
-                    // Override Method
-                    // Declaration of String class Objects.
                     double resultado = 0.0;
 
-                    // If condition to check if jRadioButton2 is selected.
                     if (metroAPieButton.isSelected()) 
                     {
                         resultado = calc.metroAPie(3.5);
@@ -125,7 +121,7 @@ class RadioButtonCalc extends JFrame
                         resultado = 0.0;
                     }
 
-                    // MessageDialog to show information selected radion buttons.
+                    // Ventana con el mensaje del resultado.
                     JOptionPane.showMessageDialog(RadioButtonCalc.this, "El resultado es: " + resultado);
                 }
             });
