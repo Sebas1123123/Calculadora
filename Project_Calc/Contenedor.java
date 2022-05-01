@@ -18,7 +18,7 @@ public class Contenedor
         RadioButtonCalc f = new RadioButtonCalc();
 
         // Tamaño de la pantalla de la calculadora.
-        f.setBounds(200, 200, 800, 400);
+        f.setBounds(200, 200, 700, 350);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Título de la aplicación.
