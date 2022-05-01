@@ -1,7 +1,7 @@
 /**
  * Clase para crear botones de seleccion.
  * Adaptado de un ejemplo en https://docs.oracle.com/javase/tutorial/uiswing/examples/components/RadioButtonDemoProject
- * y de https://www.geeksforgeeks.org/jradiobutton-java-swing
+ * y de https://www.geeksforgeeks.org/jradiobutton-java-swing y de https://www.tutorialspoint.com/what-is-the-use-of-setbounds-method-in-java
  * 
  *
  * @author Sebastián España
